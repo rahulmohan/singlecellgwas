@@ -1,0 +1,393 @@
+celltypes,traits,Escore,pEscore,trait category,tissue
+Bcells (1.3%),Lymphocyte.percent,2.57,6.14E-07,blood test,blood
+Tcells (1.7%),Lymphocyte.percent,3.41,1.08E-09,blood test,blood
+Dendritic cells (2.6%),Lymphocyte.percent,1.063,2.91E-15,blood test,blood
+Monocytes (2.1%),Lymphocyte.percent,1.421,3.65E-14,blood test,blood
+Megakaryocytes (1.5%),Lymphocyte.percent,3.224,1.48E-08,blood test,blood
+Erythroid (4.2%),Lymphocyte.percent,0.443,1.95E-15,blood test,blood
+Bcells (1.3%),Monocyte.percent,4.787,0.00555,blood test,blood
+Tcells (1.7%),Monocyte.percent,0.175,9.87E-05,blood test,blood
+Dendritic cells (2.6%),Monocyte.percent,4.094,1.88E-05,blood test,blood
+Monocytes (2.1%),Monocyte.percent,5,2.13E-07,blood test,blood
+Megakaryocytes (1.5%),Monocyte.percent,2.257,2.26E-05,blood test,blood
+Erythroid (4.2%),Monocyte.percent,0.695,1.18E-09,blood test,blood
+Bcells (1.3%),Platelet.count,0,6.01E-07,blood test,blood
+Tcells (1.7%),Platelet.count,0,1.42E-07,blood test,blood
+Dendritic cells (2.6%),Platelet.count,1.095,7.96E-13,blood test,blood
+Monocytes (2.1%),Platelet.count,1.988,2.49E-13,blood test,blood
+Megakaryocytes (1.5%),Platelet.count,5,4.48E-11,blood test,blood
+Erythroid (4.2%),Platelet.count,2.079,8.83E-19,blood test,blood
+Bcells (1.3%),RBC.count,1.523,0.000128,blood test,blood
+Tcells (1.7%),RBC.count,1.33,0.000379,blood test,blood
+Dendritic cells (2.6%),RBC.count,1.468,5.91E-08,blood test,blood
+Monocytes (2.1%),RBC.count,1.431,2.80E-07,blood test,blood
+Megakaryocytes (1.5%),RBC.count,3.659,9.52E-05,blood test,blood
+Erythroid (4.2%),RBC.count,2.519,2.94E-11,blood test,blood
+Bcells (1.3%),RBC.distwidth,0.677,0.00228,blood test,blood
+Tcells (1.7%),RBC.distwidth,0.4,0.000365,blood test,blood
+Dendritic cells (2.6%),RBC.distwidth,1.27,3.15E-07,blood test,blood
+Monocytes (2.1%),RBC.distwidth,1.342,5.47E-06,blood test,blood
+Megakaryocytes (1.5%),RBC.distwidth,5,3.14E-06,blood test,blood
+Erythroid (4.2%),RBC.distwidth,3.408,1.01E-10,blood test,blood
+Bcells (1.3%),Inflammatory Bowel Disease,3.116,2.32E-10,immune,blood
+Tcells (1.7%),Inflammatory Bowel Disease,3.267,8.27E-10,immune,blood
+Dendritic cells (2.6%),Inflammatory Bowel Disease,2.54,2.36E-13,immune,blood
+Monocytes (2.1%),Inflammatory Bowel Disease,1.649,5.76E-11,immune,blood
+Megakaryocytes (1.5%),Inflammatory Bowel Disease,0.964,1.19E-07,immune,blood
+Erythroid (4.2%),Inflammatory Bowel Disease,0.335,6.65E-13,immune,blood
+Bcells (1.3%),Crohns Disease,2.956,1.97E-05,immune,blood
+Tcells (1.7%),Crohns Disease,3.321,1.07E-05,immune,blood
+Dendritic cells (2.6%),Crohns Disease,2.326,9.86E-08,immune,blood
+Monocytes (2.1%),Crohns Disease,0.767,4.33E-06,immune,blood
+Megakaryocytes (1.5%),Crohns Disease,0.08,0.000316,immune,blood
+Erythroid (4.2%),Crohns Disease,0.455,9.16E-08,immune,blood
+Bcells (1.3%),Ulcerative colitis,3.232,1.52E-05,immune,blood
+Tcells (1.7%),Ulcerative colitis,0.599,4.62E-05,immune,blood
+Dendritic cells (2.6%),Ulcerative colitis,1.189,1.27E-05,immune,blood
+Monocytes (2.1%),Ulcerative colitis,1.842,1.71E-05,immune,blood
+Megakaryocytes (1.5%),Ulcerative colitis,0.473,0.000905,immune,blood
+Erythroid (4.2%),Ulcerative colitis,0,1.62E-05,immune,blood
+Bcells (1.3%),Eczema,2.495,0.000922,immune,blood
+Tcells (1.7%),Eczema,3.585,6.41E-08,immune,blood
+Dendritic cells (2.6%),Eczema,0.08,9.25E-09,immune,blood
+Monocytes (2.1%),Eczema,0.209,1.98E-08,immune,blood
+Megakaryocytes (1.5%),Eczema,0,0.000243,immune,blood
+Erythroid (4.2%),Eczema,0,3.09E-07,immune,blood
+Bcells (1.3%),Rheumatoid arthritis,5.015,3.23E-06,immune,blood
+Tcells (1.7%),Rheumatoid arthritis,3.909,4.57E-05,immune,blood
+Dendritic cells (2.6%),Rheumatoid arthritis,1.884,1.16E-05,immune,blood
+Monocytes (2.1%),Rheumatoid arthritis,0.172,0.000937,immune,blood
+Megakaryocytes (1.5%),Rheumatoid arthritis,0,0.00506,immune,blood
+Erythroid (4.2%),Rheumatoid arthritis,0.872,1.52E-05,immune,blood
+Bcells (1.3%),Primary Biliary cirrhosis,4.343,6.24E-06,immune,blood
+Tcells (1.7%),Primary Biliary cirrhosis,5.338,3.91E-05,immune,blood
+Dendritic cells (2.6%),Primary Biliary cirrhosis,2.301,4.40E-07,immune,blood
+Monocytes (2.1%),Primary Biliary cirrhosis,0,0.000278,immune,blood
+Megakaryocytes (1.5%),Primary Biliary cirrhosis,0,0.00113,immune,blood
+Erythroid (4.2%),Primary Biliary cirrhosis,0,6.59E-06,immune,blood
+Bcells (1.3%),Lupus,9.107,8.59E-06,immune,blood
+Tcells (1.7%),Lupus,5.993,2.52E-05,immune,blood
+Dendritic cells (2.6%),Lupus,5.859,1.11E-05,immune,blood
+Monocytes (2.1%),Lupus,3.053,7.95E-05,immune,blood
+Megakaryocytes (1.5%),Lupus,3.472,0.00146,immune,blood
+Erythroid (4.2%),Lupus,0.044,0.000107,immune,blood
+Bcells (1.3%),Type1 Diabetes,8.612,6.31E-06,immune,blood
+Tcells (1.7%),Type1 Diabetes,9.431,2.15E-06,immune,blood
+Dendritic cells (2.6%),Type1 Diabetes,4.058,1.02E-07,immune,blood
+Monocytes (2.1%),Type1 Diabetes,0.54,1.23E-05,immune,blood
+Megakaryocytes (1.5%),Type1 Diabetes,0.464,0.000146,immune,blood
+Erythroid (4.2%),Type1 Diabetes,0,3.63E-07,immune,blood
+Bcells (1.3%),Celiac,1.672,1.68E-06,immune,blood
+Tcells (1.7%),Celiac,4.491,2.28E-07,immune,blood
+Dendritic cells (2.6%),Celiac,0.186,7.17E-09,immune,blood
+Monocytes (2.1%),Celiac,0,7.21E-07,immune,blood
+Megakaryocytes (1.5%),Celiac,5.302,2.77E-06,immune,blood
+Erythroid (4.2%),Celiac,0,3.10E-09,immune,blood
+Bcells (1.3%),Alzheimers,2.046,0.0027,immune,blood
+Tcells (1.7%),Alzheimers,0,0.032,immune,blood
+Dendritic cells (2.6%),Alzheimers,3.705,6.04E-06,immune,blood
+Monocytes (2.1%),Alzheimers,4.743,1.64E-06,immune,blood
+Megakaryocytes (1.5%),Alzheimers,0.394,0.00359,immune,blood
+Erythroid (4.2%),Alzheimers,0.337,2.53E-05,immune,blood
+Bcells (1.3%),Multiple sclerosis,10,1.74E-09,immune,blood
+Tcells (1.7%),Multiple sclerosis,10,1.40E-11,immune,blood
+Dendritic cells (2.6%),Multiple sclerosis,10,5.23E-12,immune,blood
+Monocytes (2.1%),Multiple sclerosis,5.751,6.74E-10,immune,blood
+Megakaryocytes (1.5%),Multiple sclerosis,9.566,1.38E-07,immune,blood
+Erythroid (4.2%),Multiple sclerosis,3.569,8.31E-13,Immune,blood
+GABAergic (1.2%),Num Children,2.792,0.000817,brain-related,brain
+Glutamatergic (2.9%),Num Children,0.474,0.0482,brain-related,brain
+Non_neuronal (1.0%),Num Children,0,0.157,brain-related,brain
+GABAergic (1.2%),BMIz,2.542,1.59E-07,brain-related,brain
+Glutamatergic (2.9%),BMIz,0.554,2.18E-07,brain-related,brain
+Non_neuronal (1.0%),BMIz,0,0.0562,brain-related,brain
+GABAergic (1.2%),Major Depressive Disorder,4.042,0.000144,brain-related,brain
+Glutamatergic (2.9%),Major Depressive Disorder,1.142,0.000662,brain-related,brain
+Non_neuronal (1.0%),Major Depressive Disorder,0,0.992,brain-related,brain
+GABAergic (1.2%),Neuroticism,1.466,1.26E-06,brain-related,brain
+Glutamatergic (2.9%),Neuroticism,0.722,6.81E-11,brain-related,brain
+Non_neuronal (1.0%),Neuroticism,0,0.0807,brain-related,brain
+GABAergic (1.2%),Smoking Status,1.148,0.000165,brain-related,brain
+Glutamatergic (2.9%),Smoking Status,0.63,7.67E-08,brain-related,brain
+Non_neuronal (1.0%),Smoking Status,0,0.0472,brain-related,brain
+GABAergic (1.2%),Edu Years,0.888,1.03E-05,brain-related,brain
+Glutamatergic (2.9%),Edu Years,1.091,2.66E-10,brain-related,brain
+Non_neuronal (1.0%),Edu Years,0,0.0255,brain-related,brain
+GABAergic (1.2%),Intelligence,0.585,0.00218,brain-related,brain
+Glutamatergic (2.9%),Intelligence,1.574,3.36E-11,brain-related,brain
+Non_neuronal (1.0%),Intelligence,0,0.00316,brain-related,brain
+GABAergic (1.2%),Morning Person,0.651,8.08E-05,brain-related,brain
+Glutamatergic (2.9%),Morning Person,1.026,4.16E-11,brain-related,brain
+Non_neuronal (1.0%),Morning Person,0,0.365,brain-related,brain
+GABAergic (1.2%),Insomnia,0,0.0353,brain-related,brain
+Glutamatergic (2.9%),Insomnia,0.499,2.50E-06,brain-related,brain
+Non_neuronal (1.0%),Insomnia,0,0.0328,brain-related,brain
+GABAergic (1.2%),Schizophrenia,1.096,0.00786,brain-related,brain
+Glutamatergic (2.9%),Schizophrenia,1.04,1.04E-07,brain-related,brain
+Non_neuronal (1.0%),Schizophrenia,0,0.501,brain-related,brain
+GABAergic (1.2%),Age First Birth,0.79,0.032,brain-related,brain
+Glutamatergic (2.9%),Age First Birth,1.669,1.13E-05,brain-related,brain
+Non_neuronal (1.0%),Age First Birth,0,0.77,brain-related,brain
+Proximal Tubule (0.05%),Creatinine,10,0.00372,urine biomarker,kidney
+Connecting tubule (0.06%),Creatinine,8.475,6.38E-05,urine biomarker,kidney
+Principal cell (0.06%),Creatinine,6.661,0.00191,urine biomarker,kidney
+Others (0.03%),Creatinine,2.036,0.0763,urine biomarker,kidney
+Proximal Tubule (0.05%),Phosphate,10,0.0661,urine biomarker,kidney
+Connecting tubule (0.06%),Phosphate,0,0.836,urine biomarker,kidney
+Principal cell (0.06%),Phosphate,0,0.579,urine biomarker,kidney
+Others (0.03%),Phosphate,1.075,0.266,urine biomarker,kidney
+Proximal Tubule (0.05%),VitaminD,10,0.146,urine biomarker,kidney
+Connecting tubule (0.06%),VitaminD,0,0.399,urine biomarker,kidney
+Principal cell (0.06%),VitaminD,0,0.949,urine biomarker,kidney
+Others (0.03%),VitaminD,0.906,0.484,urine biomarker,kidney
+Proximal Tubule (0.05%),Bilirubin,10,0.25,urine biomarker,kidney
+Connecting tubule (0.06%),Bilirubin,0,0.636,urine biomarker,kidney
+Principal cell (0.06%),Bilirubin,0.763,0.499,urine biomarker,kidney
+Others (0.03%),Bilirubin,2.531,0.541,urine biomarker,kidney
+Proximal Tubule (0.05%),Alkaline Phosphatase,10,0.3,urine biomarker,kidney
+Connecting tubule (0.06%),Alkaline Phosphatase,0,0.823,urine biomarker,kidney
+Principal cell (0.06%),Alkaline Phosphatase,0,0.903,urine biomarker,kidney
+Others (0.03%),Alkaline Phosphatase,3.474,0.393,urine biomarker,kidney
+Proximal Tubule (0.05%),Aspartate Amino transferase,6.79,0.289,urine biomarker,kidney
+Connecting tubule (0.06%),Aspartate Amino transferase,0,0.746,urine biomarker,kidney
+Principal cell (0.06%),Aspartate Amino transferase,0,0.635,urine biomarker,kidney
+Others (0.03%),Aspartate Amino transferase,1.318,0.527,urine biomarker,kidney
+Proximal Tubule (0.05%),TotalProtein,0,0.727,urine biomarker,kidney
+Connecting tubule (0.06%),TotalProtein,0,0.729,urine biomarker,kidney
+Principal cell (0.06%),TotalProtein,0,0.891,urine biomarker,kidney
+Others (0.03%),TotalProtein,4.674,0.189,urine biomarker,kidney
+Dendritic cells (0.5%),Creatinine,0,0.039,urine biomarker,liver
+Monocytes (0.1%),Creatinine,0,0.718,urine biomarker,liver
+Macrophage (0.8%),Creatinine,0,0.00158,urine biomarker,liver
+Endothelial (0.6%),Creatinine,0,0.000337,urine biomarker,liver
+Hepatocytes (0.7%),Creatinine,0,1.24E-06,urine biomarker,liver
+Smooth.Muscle (0.3%),Creatinine,4.505,0.057,urine biomarker,liver
+Others (0.2%),Creatinine,0.56,0.00896,urine biomarker,liver
+Dendritic cells (0.5%),Phosphate,1.795,0.0305,urine biomarker,liver
+Monocytes (0.1%),Phosphate,0,0.253,urine biomarker,liver
+Macrophage (0.8%),Phosphate,0,0.0209,urine biomarker,liver
+Endothelial (0.6%),Phosphate,0.804,0.000849,urine biomarker,liver
+Hepatocytes (0.7%),Phosphate,0.542,0.0128,urine biomarker,liver
+Smooth.Muscle (0.3%),Phosphate,0,0.0101,urine biomarker,liver
+Others (0.2%),Phosphate,2.25,0.16,urine biomarker,liver
+Dendritic cells (0.5%),VitaminD,0,0.111,urine biomarker,liver
+Monocytes (0.1%),VitaminD,0,0.452,urine biomarker,liver
+Macrophage (0.8%),VitaminD,0,0.00764,urine biomarker,liver
+Endothelial (0.6%),VitaminD,0,0.0674,urine biomarker,liver
+Hepatocytes (0.7%),VitaminD,1.26,0.00371,urine biomarker,liver
+Smooth.Muscle (0.3%),VitaminD,0,0.0842,urine biomarker,liver
+Others (0.2%),VitaminD,1.646,0.19,urine biomarker,liver
+Dendritic cells (0.5%),Bilirubin,3.623,0.00151,urine biomarker,liver
+Monocytes (0.1%),Bilirubin,0,0.0465,urine biomarker,liver
+Macrophage (0.8%),Bilirubin,0,0.00673,urine biomarker,liver
+Endothelial (0.6%),Bilirubin,0,0.0662,urine biomarker,liver
+Hepatocytes (0.7%),Bilirubin,3.357,6.36E-06,urine biomarker,liver
+Smooth.Muscle (0.3%),Bilirubin,0,0.00601,urine biomarker,liver
+Others (0.2%),Bilirubin,1.612,0.0461,urine biomarker,liver
+Dendritic cells (0.5%),Alkaline Phosphatase,0,0.056,urine biomarker,liver
+Monocytes (0.1%),Alkaline Phosphatase,0.479,0.104,urine biomarker,liver
+Macrophage (0.8%),Alkaline Phosphatase,0,0.00357,urine biomarker,liver
+Endothelial (0.6%),Alkaline Phosphatase,0,0.000566,urine biomarker,liver
+Hepatocytes (0.7%),Alkaline Phosphatase,3.404,0.000154,urine biomarker,liver
+Smooth.Muscle (0.3%),Alkaline Phosphatase,0,0.00692,urine biomarker,liver
+Others (0.2%),Alkaline Phosphatase,2.265,0.0846,urine biomarker,liver
+Dendritic cells (0.5%),Aspartate Amino transferase,0,0.000135,urine biomarker,liver
+Monocytes (0.1%),Aspartate Amino transferase,4.967,0.000377,urine biomarker,liver
+Macrophage (0.8%),Aspartate Amino transferase,0,4.56E-05,urine biomarker,liver
+Endothelial (0.6%),Aspartate Amino transferase,1.972,7.92E-05,urine biomarker,liver
+Hepatocytes (0.7%),Aspartate Amino transferase,0.126,1.92E-06,urine biomarker,liver
+Smooth.Muscle (0.3%),Aspartate Amino transferase,0,0.0163,urine biomarker,liver
+Others (0.2%),Aspartate Amino transferase,3.498,0.028,urine biomarker,liver
+Dendritic cells (0.5%),TotalProtein,8.783,0.00601,urine biomarker,liver
+Monocytes (0.1%),TotalProtein,10,0.0172,urine biomarker,liver
+Macrophage (0.8%),TotalProtein,4.89,0.00173,urine biomarker,liver
+Endothelial (0.6%),TotalProtein,4.746,3.62E-07,urine biomarker,liver
+Hepatocytes (0.7%),TotalProtein,1.98,0.00183,urine biomarker,liver
+Smooth.Muscle (0.3%),TotalProtein,4.249,0.00313,urine biomarker,liver
+Others (0.2%),TotalProtein,6.361,0.0498,urine biomarker,liver
+Atrial Cardiomyocyte (0.9%),Coronary Artery Disease,0,0.0267,heart-related,heart
+Cytoplasm Cardiomyocyte (0.2%),Coronary Artery Disease,10,0.0561,heart-related,heart
+Ventricle Cardiomyocyte (0.7%),Coronary Artery Disease,3.365,0.0165,heart-related,heart
+Pericyte (0.2%),Coronary Artery Disease,0.184,0.167,heart-related,heart
+Smooth.Muscle (0.3%),Coronary Artery Disease,0.433,0.0808,heart-related,heart
+Others (0.3%),Coronary Artery Disease,3.52,0.0549,heart-related,heart
+Atrial Cardiomyocyte (0.9%),ECG rate,4.886,8.34E-05,heart-related,heart
+Cytoplasm Cardiomyocyte (0.2%),ECG rate,10,0.0015,heart-related,heart
+Ventricle Cardiomyocyte (0.7%),ECG rate,1.602,0.0114,heart-related,heart
+Pericyte (0.2%),ECG rate,0,0.202,heart-related,heart
+Smooth.Muscle (0.3%),ECG rate,3.378,0.027,heart-related,heart
+Others (0.3%),ECG rate,1.429,0.117,heart-related,heart
+Atrial Cardiomyocyte (0.9%),Atrial Fibrillation,5.637,3.21E-09,heart-related,heart
+Cytoplasm Cardiomyocyte (0.2%),Atrial Fibrillation,10,0.0226,heart-related,heart
+Ventricle Cardiomyocyte (0.7%),Atrial Fibrillation,2.046,1.44E-05,heart-related,heart
+Pericyte (0.2%),Atrial Fibrillation,0,0.276,heart-related,heart
+Smooth.Muscle (0.3%),Atrial Fibrillation,0,0.00989,heart-related,heart
+Others (0.3%),Atrial Fibrillation,1.424,0.0683,heart-related,heart
+Atrial Cardiomyocyte (0.9%),Systolic bp,0.296,0.000549,heart-related,heart
+Cytoplasm Cardiomyocyte (0.2%),Systolic bp,2.261,0.0691,heart-related,heart
+Ventricle Cardiomyocyte (0.7%),Systolic bp,0.309,0.00146,heart-related,heart
+Pericyte (0.2%),Systolic bp,6.949,0.000111,heart-related,heart
+Smooth.Muscle (0.3%),Systolic bp,2.592,3.74E-05,heart-related,heart
+Others (0.3%),Systolic bp,1.046,0.00326,heart-related,heart
+Atrial Cardiomyocyte (0.9%),Diastolic bp,0.637,6.79E-06,heart-related,heart
+Cytoplasm Cardiomyocyte (0.2%),Diastolic bp,2.246,0.0212,heart-related,heart
+Ventricle Cardiomyocyte (0.7%),Diastolic bp,0.058,0.000221,heart-related,heart
+Pericyte (0.2%),Diastolic bp,6.5,0.000175,heart-related,heart
+Smooth.Muscle (0.3%),Diastolic bp,3.41,2.95E-06,heart-related,heart
+Others (0.3%),Diastolic bp,1.012,0.00187,heart-related,heart
+Tcells (0.3%),Lung capacity,0,0.456,lung-related,lung
+Dendritic cells (0.2%),Lung capacity,0,0.412,lung-related,lung
+Monocytes (0.4%),Lung capacity,0,0.264,lung-related,lung
+Lymphatic (0.4%),Lung capacity,3.026,0.00299,lung-related,lung
+Mesothelial (0.3%),Lung capacity,3.617,0.00366,lung-related,lung
+AT2 (1.2%),Lung capacity,1.686,0.00126,lung-related,lung
+Fibroblasts (0.5%),Lung capacity,5.725,0.000295,lung-related,lung
+Smooth.Muscle (0.3%),Lung capacity,7.266,0.000309,lung-related,lung
+Tcells (0.3%),Asthma,10,0.000204,lung-related,lung
+Dendritic cells (0.2%),Asthma,10,0.0047,lung-related,lung
+Monocytes (0.4%),Asthma,10,0.00885,lung-related,lung
+Lymphatic (0.4%),Asthma,0,0.592,lung-related,lung
+Mesothelial (0.3%),Asthma,0,0.769,lung-related,lung
+AT2 (1.2%),Asthma,0,0.937,lung-related,lung
+Fibroblasts (0.5%),Asthma,0,0.867,lung-related,lung
+Smooth.Muscle (0.3%),Asthma,0,0.653,lung-related,lung
+Tcells (0.3%),Lung capacity,0.08,0.06,lung-related,lung (immune enhancer)
+Dendritic cells (0.2%),Lung capacity,0.64,0.03,lung-related,lung (immune enhancer)
+Monocytes (0.4%),Lung capacity,0,1,lung-related,lung (immune enhancer)
+Lymphatic (0.4%),Lung capacity,1.42,0.004,lung-related,lung (immune enhancer)
+Mesothelial (0.3%),Lung capacity,0.87,3.00E-04,lung-related,lung (immune enhancer)
+AT2 (1.2%),Lung capacity,1,1.00E-04,lung-related,lung (immune enhancer)
+Fibroblasts (0.5%),Lung capacity,1.89,4.90E-06,lung-related,lung (immune enhancer)
+Smooth.Muscle (0.3%),Lung capacity,3.4,9.10E-06,lung-related,lung (immune enhancer)
+Tcells (0.3%),Asthma,4.5,4.30E-08,lung-related,lung (immune enhancer)
+Dendritic cells (0.2%),Asthma,5.5,5.40E-08,lung-related,lung (immune enhancer)
+Monocytes (0.4%),Asthma,1.7,1.10E-06,lung-related,lung (immune enhancer)
+Lymphatic (0.4%),Asthma,1.3,4.20E-06,lung-related,lung (immune enhancer)
+Mesothelial (0.3%),Asthma,0,1,lung-related,lung (immune enhancer)
+AT2 (1.2%),Asthma,1.1,6.50E-08,lung-related,lung (immune enhancer)
+Fibroblasts (0.5%),Asthma,1.9,1.50E-05,lung-related,lung (immune enhancer)
+Smooth.Muscle (0.3%),Asthma,0,1,lung-related,lung (immune enhancer)
+Bcells (1.0%),Inflammatory Bowel Disease,5.919,1.82E-05,colon-related,colon
+Tcells (0.4%),Inflammatory Bowel Disease,10,7.47E-05,colon-related,colon
+Dendritic cells (1.1%),Inflammatory Bowel Disease,8.524,2.86E-07,colon-related,colon
+Monocytes (0.9%),Inflammatory Bowel Disease,5.284,4.70E-06,colon-related,colon
+Macrophage (1.0%),Inflammatory Bowel Disease,5.885,1.16E-07,colon-related,colon
+Endothelial (0.9%),Inflammatory Bowel Disease,2.872,0.00154,colon-related,colon
+Enteroendocrine (0.4%),Inflammatory Bowel Disease,2.082,0.000187,colon-related,colon
+Fibroblast (1.2%),Inflammatory Bowel Disease,1.236,0.000842,colon-related,colon
+Mcells (0.4%),Inflammatory Bowel Disease,0,1.00E+00,colon-related,colon
+Others (0.6%),Inflammatory Bowel Disease,1.009,0.00702,colon-related,colon
+Bcells (1.0%),Crohns Disease,8.074,0.0019,colon-related,colon
+Tcells (0.4%),Crohns Disease,10,0.0227,colon-related,colon
+Dendritic cells (1.1%),Crohns Disease,9.027,0.000522,colon-related,colon
+Monocytes (0.9%),Crohns Disease,4.221,0.00156,colon-related,colon
+Macrophage (1.0%),Crohns Disease,5.141,4.97E-05,colon-related,colon
+Endothelial (0.9%),Crohns Disease,5.447,0.0241,colon-related,colon
+Enteroendocrine (0.4%),Crohns Disease,0.451,0.0128,colon-related,colon
+Fibroblast (1.2%),Crohns Disease,5.075,0.00354,colon-related,colon
+Mcells (0.4%),Crohns Disease,0,1,colon-related,colon
+Others (0.6%),Crohns Disease,1.27,0.0614,colon-related,colon
+Bcells (1.0%),Ulcerative colitis,1.802,0.0196,colon-related,colon
+Tcells (0.4%),Ulcerative colitis,9.736,0.000408,colon-related,colon
+Dendritic cells (1.1%),Ulcerative colitis,4.475,0.000622,colon-related,colon
+Monocytes (0.9%),Ulcerative colitis,1.582,0.0179,colon-related,colon
+Macrophage (1.0%),Ulcerative colitis,4.044,0.00116,colon-related,colon
+Endothelial (0.9%),Ulcerative colitis,3.64,0.0224,colon-related,colon
+Enteroendocrine (0.4%),Ulcerative colitis,6.753,0.00283,colon-related,colon
+Fibroblast (1.2%),Ulcerative colitis,1.13,0.0253,colon-related,colon
+Mcells (0.4%),Ulcerative colitis,0,1,colon-related,colon
+Others (0.6%),Ulcerative colitis,0.988,0.0466,colon-related,colon
+Bcells (1.0%),Celiac,9.701,0.000203,colon-related,colon
+Tcells (0.4%),Celiac,10,0.000309,colon-related,colon
+Dendritic cells (1.1%),Celiac,7.901,3.29E-05,colon-related,colon
+Monocytes (0.9%),Celiac,8.232,0.000114,colon-related,colon
+Macrophage (1.0%),Celiac,7.668,0.000177,colon-related,colon
+Endothelial (0.9%),Celiac,4.198,0.0208,colon-related,colon
+Enteroendocrine (0.4%),Celiac,0,0.925,colon-related,colon
+Fibroblast (1.2%),Celiac,0,0.055,colon-related,colon
+Mcells (0.4%),Celiac,0,1,colon-related,colon
+Others (0.6%),Celiac,1.489,0.178,colon-related,colon
+Bcells (1.0%),WHRadjBMI,0.965,0.00438,colon-related,colon
+Tcells (0.4%),WHRadjBMI,0,0.991,colon-related,colon
+Dendritic cells (1.1%),WHRadjBMI,0.062,0.11,colon-related,colon
+Monocytes (0.9%),WHRadjBMI,0.19,0.195,colon-related,colon
+Macrophage (1.0%),WHRadjBMI,1.288,0.0474,colon-related,colon
+Endothelial (0.9%),WHRadjBMI,0.962,0.0293,colon-related,colon
+Enteroendocrine (0.4%),WHRadjBMI,0,0.0537,colon-related,colon
+Fibroblast (1.2%),WHRadjBMI,2.653,0.000259,colon-related,colon
+Mcells (0.4%),WHRadjBMI,0,1,colon-related,colon
+Others (0.6%),WHRadjBMI,0.025,0.152,colon-related,colon
+Bcells (1.0%),Inflammatory Bowel Disease,3.763,2.60E-08,colon-related,colon (immune enhancer)
+Tcells (0.4%),Inflammatory Bowel Disease,4.9,2.20E-09,colon-related,colon (immune enhancer)
+Dendritic cells (1.1%),Inflammatory Bowel Disease,5.49,2.10E-11,colon-related,colon (immune enhancer)
+Monocytes (0.9%),Inflammatory Bowel Disease,3.7,2.97E-10,colon-related,colon (immune enhancer)
+Macrophage (1.0%),Inflammatory Bowel Disease,4.85,2.10E-11,colon-related,colon (immune enhancer)
+Endothelial (0.9%),Inflammatory Bowel Disease,2.2,1.10E-05,colon-related,colon (immune enhancer)
+Enteroendocrine (0.4%),Inflammatory Bowel Disease,3.88,4.80E-05,colon-related,colon (immune enhancer)
+Fibroblast (1.2%),Inflammatory Bowel Disease,3.66,1.40E-06,colon-related,colon (immune enhancer)
+Mcells (0.4%),Inflammatory Bowel Disease,0,1.00E+00,colon-related,colon (immune enhancer)
+Others (0.6%),Inflammatory Bowel Disease,2.362,0.002,colon-related,colon (immune enhancer)
+Bcells (1.0%),Crohns Disease,4.72,6.60E-06,colon-related,colon (immune enhancer)
+Tcells (0.4%),Crohns Disease,4.01,5.20E-05,colon-related,colon (immune enhancer)
+Dendritic cells (1.1%),Crohns Disease,5.35,8.20E-07,colon-related,colon (immune enhancer)
+Monocytes (0.9%),Crohns Disease,2.2,1.20E-05,colon-related,colon (immune enhancer)
+Macrophage (1.0%),Crohns Disease,3.32,8.90E-07,colon-related,colon (immune enhancer)
+Endothelial (0.9%),Crohns Disease,4.31,0.002,colon-related,colon (immune enhancer)
+Enteroendocrine (0.4%),Crohns Disease,2.38,0.005,colon-related,colon (immune enhancer)
+Fibroblast (1.2%),Crohns Disease,7.16,1.00E-04,colon-related,colon (immune enhancer)
+Mcells (0.4%),Crohns Disease,0,1,colon-related,colon (immune enhancer)
+Others (0.6%),Crohns Disease,1.56,0.002,colon-related,colon (immune enhancer)
+Bcells (1.0%),Ulcerative colitis,0.32,0.001,colon-related,colon (immune enhancer)
+Tcells (0.4%),Ulcerative colitis,1.38,3.10E-04,colon-related,colon (immune enhancer)
+Dendritic cells (1.1%),Ulcerative colitis,1.33,1.10E-04,colon-related,colon (immune enhancer)
+Monocytes (0.9%),Ulcerative colitis,0,1,colon-related,colon (immune enhancer)
+Macrophage (1.0%),Ulcerative colitis,2.68,2.00E-04,colon-related,colon (immune enhancer)
+Endothelial (0.9%),Ulcerative colitis,0,1,colon-related,colon (immune enhancer)
+Enteroendocrine (0.4%),Ulcerative colitis,3.84,0.01,colon-related,colon (immune enhancer)
+Fibroblast (1.2%),Ulcerative colitis,0.69,0.06,colon-related,colon (immune enhancer)
+Mcells (0.4%),Ulcerative colitis,0,1,colon-related,colon (immune enhancer)
+Others (0.6%),Ulcerative colitis,0.856,0.0356,colon-related,colon (immune enhancer)
+Bcells (1.0%),Celiac,5.6,4.00E-06,colon-related,colon (immune enhancer)
+Tcells (0.4%),Celiac,10.4,2.20E-06,colon-related,colon (immune enhancer)
+Dendritic cells (1.1%),Celiac,1.5,1.20E-05,colon-related,colon (immune enhancer)
+Monocytes (0.9%),Celiac,3.56,6.40E-05,colon-related,colon (immune enhancer)
+Macrophage (1.0%),Celiac,1.79,1.20E-05,colon-related,colon (immune enhancer)
+Endothelial (0.9%),Celiac,2.1,0.001,colon-related,colon (immune enhancer)
+Enteroendocrine (0.4%),Celiac,0,1,colon-related,colon (immune enhancer)
+Fibroblast (1.2%),Celiac,0,1,colon-related,colon (immune enhancer)
+Mcells (0.4%),Celiac,0,1,colon-related,colon (immune enhancer)
+Others (0.6%),Celiac,1.675,0.288,colon-related,colon (immune enhancer)
+Bcells (1.0%),WHRadjBMI,1.349,0.075,colon-related,colon (immune enhancer)
+Tcells (0.4%),WHRadjBMI,0,1,colon-related,colon (immune enhancer)
+Dendritic cells (1.1%),WHRadjBMI,0.83,0.25,colon-related,colon (immune enhancer)
+Monocytes (0.9%),WHRadjBMI,0.596,0.534,colon-related,colon (immune enhancer)
+Macrophage (1.0%),WHRadjBMI,1.59,0.08,colon-related,colon (immune enhancer)
+Endothelial (0.9%),WHRadjBMI,2.13,0.03,colon-related,colon (immune enhancer)
+Enteroendocrine (0.4%),WHRadjBMI,0.385,0.72,colon-related,colon (immune enhancer)
+Fibroblast (1.2%),WHRadjBMI,2.66,0.01,colon-related,colon (immune enhancer)
+Mcells (0.4%),WHRadjBMI,0,1,colon-related,colon (immune enhancer)
+Others (0.6%),WHRadjBMI,0.06,0.28,colon-related,colon (immune enhancer)
+Langerhans (0.5%),Eczema,3.781,0.00447,skin-related,skin
+Others (0.6%),Eczema,0,0.0864,skin-related,skin
+Langerhans (0.5%),Pigment.Sunburn,0,0.42,skin-related,skin
+Others (0.6%),Pigment.Sunburn,0,0.305,skin-related,skin
+Adipocyte (0.2%),Breast.Cancer,0,0.316,adipose-related,adipose
+Fibroblast (0.9%),Breast.Cancer,0,0.203,adipose-related,adipose
+Muscle (0.4%),Breast.Cancer,0,0.317,adipose-related,adipose
+Others (0.2%),Breast.Cancer,0,0.421,adipose-related,adipose
+Adipocyte (0.2%),BMI/WHR,9.561,0.00014,adipose-related,adipose
+Fibroblast (0.9%),BMI/WHR,1.785,3.73E-07,adipose-related,adipose
+Muscle (0.4%),BMI/WHR,4.509,0.000421,adipose-related,adipose
+Others (0.2%),BMI/WHR,0,0.0553,adipose-related,adipose
+Adipocyte (0.2%),T2D,0,0.0953,adipose-related,adipose
+Fibroblast (0.9%),T2D,0,0.627,adipose-related,adipose
+Muscle (0.4%),T2D,0,0.311,adipose-related,adipose
+Others (0.2%),T2D,0,0.424,adipose-related,adipose
+Adipocyte (0.2%),BMR,0,0.202,adipose-related,adipose
+Fibroblast (0.9%),BMR,0,0.088,adipose-related,adipose
+Muscle (0.4%),BMR,1.375,0.00418,adipose-related,adipose
+Others (0.2%),BMR,0.293,0.111,adipose-related,adipose
+Adipocyte (0.2%),Cholesterol,0,0.0371,adipose-related,adipose
+Fibroblast (0.9%),Cholesterol,0,0.137,adipose-related,adipose
+Muscle (0.4%),Cholesterol,0,0.177,adipose-related,adipose
+Others (0.2%),Cholesterol,0,0.261,adipose-related,adipose
