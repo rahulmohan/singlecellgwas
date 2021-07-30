@@ -143,8 +143,7 @@ def generate_heatmap(traits_selected, tissues_selected):
 	)
 
 	fig.update_layout(
-	    width=700,
-	    height=700
+	    autosize=True
 	 )
 
 	def on_click(trace, points, selector):
@@ -164,7 +163,7 @@ tissues_selected = st.sidebar.multiselect("Select Tissue: ", tissue_categories, 
 if len(traits_selected) > 0 and len(tissues_selected) > 0:
 	fig = generate_heatmap(traits_selected, tissues_selected)
 	selected_points = plotly_events(fig, click_event=True, hover_event=False)
-	st.write(selected_points)
+	#st.write(selected_points)
 	#st.plotly_chart(fig)
 
 st.markdown(
