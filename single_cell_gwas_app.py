@@ -162,9 +162,9 @@ tissues_selected = st.sidebar.multiselect("Select Tissue: ", tissue_categories, 
 
 if len(traits_selected) > 0 and len(tissues_selected) > 0:
 	fig = generate_heatmap(traits_selected, tissues_selected)
-	#selected_points = plotly_events(fig, click_event=True, hover_event=False)
+	selected_points = plotly_events(fig, click_event=True, hover_event=False)
 	#st.write(selected_points)
-	st.plotly_chart(fig, use_container_width=True)
+	#st.plotly_chart(fig)
 
 st.markdown(
     """
