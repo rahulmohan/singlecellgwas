@@ -143,7 +143,8 @@ def generate_heatmap(traits_selected, tissues_selected):
 	)
 
 	fig.update_layout(
-	    autosize=True
+	    width=700,
+	    height=700
 	 )
 
 	def on_click(trace, points, selector):
