@@ -4,7 +4,7 @@ import plotly.graph_objects as go
 import streamlit as st 
 from streamlit_plotly_events import plotly_events
 
-st.set_page_config(layout="wide")
+st.set_page_config(layout="centered")
 st.title("Single Cell GWAS Explorer")
 st.write("Size of circles indicate enrichment score, opacity of circles indicate -log(p-value).")
 pairs = pd.read_csv("trait_celltype_pairs.csv")
