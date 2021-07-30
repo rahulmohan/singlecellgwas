@@ -142,8 +142,8 @@ def generate_heatmap(traits_selected, tissues_selected):
 	)
 
 	fig.update_layout(
-	    width=50*len(x_axis),
-	    height=50*len(y_axis)
+	    width=150*len(x_axis),
+	    height=150*len(y_axis)
 	 )
 
 	def on_click(trace, points, selector):
