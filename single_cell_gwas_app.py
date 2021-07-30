@@ -80,9 +80,7 @@ def generate_heatmap(traits_selected, tissues_selected):
 	)
 
 	fig.update_layout(
-	    autosize=False,
-	    width=1000,
-	    height=1000
+	    autosize=True,
 	 )
 
 	return fig
