@@ -7,6 +7,65 @@ from streamlit_plotly_events import plotly_events
 st.title("Single Cell GWAS Explorer")
 st.write("Size of circles indicate enrichment score, opacity of circles indicate -log(p-value).")
 pairs = pd.read_csv("trait_celltype_pairs.csv")
+
+trait_map = {
+	"Age First Birth": "UKB_460K.repro_AgeFirstBirth_Female",
+	"Alkaline Phosphatase": "UKB_460K.biochemistry_AlkalinePhosphatase",
+	"Alzheimers": "PASS_Alzheimer",
+	"Aspartate Amino transferase": "UKB_460K.biochemistry_AspartateAminotransferase",
+	"Asthma": "UKB_460K.disease_ASTHMA_DIAGNOSED",
+	"Atrial Fibrillation": "PASS_AtrialFibrillation_Nielsen2018",
+	"BMI/WHR": "Body_mass_index_BMI",
+	"BMIz": "UKB_460K.body_BMIz",
+	"BMR": "Basal_metabolic_rate",
+	"Bilirubin": "UKB_460K.biochemistry_TotalBilirubin",
+	"Breast.Cancer": "UKB_460K.cancer_BREAST",
+	"Celiac": "PASS_Celiac",
+	"Cholesterol": "UKB_460K.biochemistry_Cholesterol",
+	"Coronary Artery Disease": "PASS_Coronary_Artery_Disease",
+	"Creatinine": "UKB_460K.biochemistry_Creatinine",
+	"Crohns Disease": "PASS_Crohns_Disease",
+	"Diastolic bp": "Diastolic_blood_pressure_automated_reading",
+	"ECG rate": "ECG_heart_rate",
+	"Eczema": "UKB_460K.disease_ALLERGY_ECZEMA_DIAGNOSED",
+	"Edu Years": "PASS_Years_of_Education1",
+	"Inflammatory Bowel Disease": "PASS_IBD",
+	"Insomnia": "PASS_Insomnia_Jansen2019",
+	"Intelligence": "PASS_Intelligence_SavageJansen2018",
+	"Lung capacity": "Forced_vital_capacity_FVC",
+	"Lupus": "PASS_Lupus",
+	"Lymphocyte.percent": "Lymphocyte_percentage",
+	"Major Depressive Disorder": "PASS_MDD_Howard2019",
+	"Monocyte.percent": "Monocyte_percentage",
+	"Morning Person": "UKB_460K.other_MORNINGPERSON",
+	"Multiple sclerosis": "PASS_Multiple_sclerosis",
+	"Neuroticism": "Neuroticism_score",
+	"Num Children": "UKB_460K.repro_NumberChildrenEverBorn_Pooled",
+	"Phosphate": "UKB_460K.biochemistry_Phosphate",
+	"Pigment.Sunburn": "UKB_460K.pigment_SUNBURN",
+	"Platelet.count": "Platelet_count",
+	"Primary Biliary cirrhosis": "PASS_Primary_biliary_cirrhosis",
+	"RBC.count": "UKB_460K.blood_RED_COUNT",
+	"RBC.distwidth": "UKB_460K.blood_RBC_DISTRIB_WIDTH",
+	"Rheumatoid arthritis": "PASS_Rheumatoid_Arthritis",
+	"Schizophrenia": "PASS_Schizophrenia",
+	"Smoking Status": "UKB_460K.cov_SMOKING_STATUS",
+	"Systolic bp": "Systolic_blood_pressure_automated_reading",
+	"T2D": "UKB_460K.disease_T2D",
+	"TotalProtein": "UKB_460K.biochemistry_TotalProtein",
+	"Type1 Diabetes": "PASS_Type_1_Diabetes",
+	"Ulcerative colitis": "PASS_Ulcerative_Colitis",
+	"VitaminD": "UKB_460K.biochemistry_VitaminD",
+	"WHRadjBMI": "UKB_460K.body_WHRadjBMIz"
+}
+
+celltype_map = {
+	
+}
+
+print(np.unique(pairs["traits"]))
+print(np.unique(pairs["celltypes"].map(lambda x: str(x).split("(")[0].strip())))
+
 app_startup = True
 
 def create_matrix(trait_categories, tissue_categories):
@@ -59,10 +118,11 @@ def generate_heatmap(traits_selected, tissues_selected):
 	    mode='markers',
 	    text=texts,
 	    marker=dict(
-			color = ["red"] * len(x) * len(y),
+			color = ["#d62728"] * len(x) * len(y),
 	    	opacity = pvals,
 	    	size = escores
-	    )
+	    ),
+	    hoverlabel=dict(bgcolor="white")
 	)])
 
 	fig.update_layout(
@@ -87,12 +147,10 @@ def generate_heatmap(traits_selected, tissues_selected):
 
 	def on_click(trace, points, selector):
 	    inds = points.point_inds
+	    print(inds)
 	    st.write(str(inds[0]))
 
-
-	fig.on_click(update_point)
-
-
+	fig.data[0].on_click(on_click)
 	return fig
 
 trait_categories = list(np.unique(pairs["trait category"].values))
@@ -104,7 +162,8 @@ tissues_selected = st.sidebar.multiselect("Select Tissue: ", tissue_categories, 
 if len(traits_selected) > 0 and len(tissues_selected) > 0:
 	fig = generate_heatmap(traits_selected, tissues_selected)
 	selected_points = plotly_events(fig, click_event=True, hover_event=False)
-	st.plotly_chart(fig)
+	st.write(selected_points)
+	#st.plotly_chart(fig)
 
 st.markdown(
     """
