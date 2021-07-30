@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
 import streamlit as st 
+from streamlit_plotly_events import plotly_events
 
 st.title("Single Cell GWAS Explorer")
 st.write("Size of circles indicate enrichment score, opacity of circles indicate -log(p-value).")
@@ -84,6 +85,14 @@ def generate_heatmap(traits_selected, tissues_selected):
 	    autosize=True,
 	 )
 
+	def on_click(trace, points, selector):
+	    inds = points.point_inds
+	    st.write(str(inds[0]))
+
+
+	fig.on_click(update_point)
+
+
 	return fig
 
 trait_categories = list(np.unique(pairs["trait category"].values))
@@ -94,6 +103,7 @@ tissues_selected = st.sidebar.multiselect("Select Tissue: ", tissue_categories, 
 
 if len(traits_selected) > 0 and len(tissues_selected) > 0:
 	fig = generate_heatmap(traits_selected, tissues_selected)
+	selected_points = plotly_events(fig, click_event=True, hover_event=False)
 	st.plotly_chart(fig)
 
 st.markdown(
