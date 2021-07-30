@@ -4,6 +4,7 @@ import plotly.graph_objects as go
 import streamlit as st 
 from streamlit_plotly_events import plotly_events
 
+st.set_page_config(layout="wide")
 st.title("Single Cell GWAS Explorer")
 st.write("Size of circles indicate enrichment score, opacity of circles indicate -log(p-value).")
 pairs = pd.read_csv("trait_celltype_pairs.csv")
@@ -142,8 +143,7 @@ def generate_heatmap(traits_selected, tissues_selected):
 	)
 
 	fig.update_layout(
-	    width=150*len(x_axis),
-	    height=150*len(y_axis)
+	    autosize=True
 	 )
 
 	def on_click(trace, points, selector):
