@@ -4,6 +4,7 @@ import plotly.graph_objects as go
 import streamlit as st 
 
 st.title("Single Cell GWAS Explorer")
+st.write("Size of circles indicate effect size, opacity of circles indicate -log(p-value).")
 pairs = pd.read_csv("trait_celltype_pairs.csv")
 app_startup = True
 
